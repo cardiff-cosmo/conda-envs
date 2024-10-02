@@ -1,0 +1,40 @@
+name: soliket
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python>=3.8,<3.12
+  - pip
+  - pytest
+  - pytest-cov
+  - compilers
+  - make
+  - cmake
+  - swig
+  - gsl
+  - fftw
+  - cython
+  - mpi4py
+  - camb
+  - pip:
+      - numpy
+      - scipy>=1.6
+      - pandas
+      - pytest-cov
+      - scikit-learn
+      - pyyaml
+      - py-bobyqa
+      - packaging
+      - tqdm
+      - tensorflow<2.14
+      - portalocker
+      - dill
+      - fuzzywuzzy
+      - astropy
+      - getdist
+      - cobaya
+      - pyccl >= 3.0; platform_system!='Windows'
+      - sacc
+      - fgspectra>=1.1.0
+      - syslibrary
+      - pyhalomodel
