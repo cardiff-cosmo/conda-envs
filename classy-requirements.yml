@@ -1,0 +1,12 @@
+name: classy
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python
+  - make
+  - compilers
+  - llvm-openmp
+  - cython
+  - numpy
+  - scipy
