@@ -1,0 +1,19 @@
+name: so-cambclass
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python<3.12
+  - pip
+  - ipython
+  - make
+  - compilers
+  - llvm-openmp
+  - cython
+  - pip:
+    - numpy
+    - scipy
+    - matplotlib
+    - camb
+    - cobaya
+    - mflike
