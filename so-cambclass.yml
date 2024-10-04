@@ -9,6 +9,7 @@ dependencies:
   - make
   - compilers
   - llvm-openmp
+  - mpi4py
   - cython
   - pip:
     - numpy
